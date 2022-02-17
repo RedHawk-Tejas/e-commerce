@@ -1,0 +1,35 @@
+.checkoutproduct{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+    position: relative;
+}
+
+.checkoutproduct > img{
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.checkoutproduct_info > .checkoutproduct_price{
+    padding-top: 10px;
+    font-size: 21px;
+}
+
+.checkoutproduct > .MuiSvgIcon-root{
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+    cursor: pointer;
+}
+
+.checkoutproduct > .MuiSvgIcon-root:hover{
+    color: red;
+}

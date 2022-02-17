@@ -1,0 +1,12 @@
+.wishlist{
+    padding: 40px 50px;
+    height: max-content;
+    color: white;
+}
+
+.wishlist_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}

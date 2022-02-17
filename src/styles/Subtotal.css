@@ -1,0 +1,32 @@
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 20px 50vh;
+    margin: 40px;
+
+    position: absolute ;
+    top: 170px;
+    z-index: 9;
+}
+
+.subtotal > p{
+    font-size: 19px;
+}
+
+.subtotal > p > strong{
+    font-size: 24px;
+}
+
+.subtotal > button{
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}

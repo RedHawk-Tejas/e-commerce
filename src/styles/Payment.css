@@ -1,0 +1,140 @@
+.payment{
+    display: flex;;
+
+}
+
+.payment-container-left{
+    flex: 0.8;
+    /* background-color: antiquewhite; */
+}
+
+.payment-container-left > h1{
+    margin: 50px;
+    color: white;
+    border-bottom: 3px solid red;
+    width: fit-content;
+}
+
+.payment-container-left > .payment-section{
+    /* border: 1px solid white; */
+    /* border-radius: 10px; */
+    margin: 50px 100px;
+    padding: 10px ;
+}
+
+.payment-container-left > .payment-section > .name-details{
+    justify-content: space-between; 
+    padding-bottom: 20px;
+}
+
+.payment-container-left > .payment-section > .name-details > input{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    width: 340px;
+    padding: 5px 30px;
+}
+
+.payment-container-left > .payment-section > .name-details  > h5{
+    color: white;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.payment-container-left > .payment-section > .contact-details{
+    padding-bottom: 20px;
+}
+
+.payment-container-left > .payment-section > .contact-details > h5{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.payment-container-left > .payment-section > .contact-details > input{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    width: 340px;
+    padding: 5px 30px;
+}
+
+.payment-container-left > .payment-section > .address-details{
+    padding-bottom: 20px;
+}
+
+.payment-container-left > .payment-section > .address-details> h5{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.payment-container-left > .payment-section > .address-details > input{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    width: 340px;
+    padding: 5px 30px;
+}
+
+.payment-container-left > .payment-section  > button{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: red;
+    color: white;
+    border-radius:10px;
+    border: none;
+    cursor: pointer;
+}
+
+.payment-container-left > .payment-section  > .payment-method{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    /* padding-bottom: 20px; */
+}
+
+.payment-container-left > .payment-section > .payment-meth-details > form{
+    margin: 20px 0;
+    color: white;
+}
+
+.payment-container-left > .payment-section > .payment-meth-details > .payment-priceContainer{
+    padding-top: 10px;
+}
+
+.payment-container-right{
+    flex: 0.3;
+    color: white;
+}
+
+.payment-container-right > .right-conatiner{
+    color: white;
+    margin: 50px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.payment-container-right > .right-conatiner > h1{
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding: 20px;
+}
+
+.payment-container-right > .right-conatiner > p{
+    padding: 5px 20px;
+    font-size: 23px;
+}
+
+.payment-container-right > .right-conatiner > button{
+    padding: 8px 20px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
