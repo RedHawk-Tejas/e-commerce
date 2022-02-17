@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/e-commerce/static/css/main.590b8c4f.css",
+    "main.js": "/e-commerce/static/js/main.68bd8848.js",
+    "static/js/787.994511a4.chunk.js": "/e-commerce/static/js/787.994511a4.chunk.js",
+    "static/media/Red Hawk New.png": "/e-commerce/static/media/Red Hawk New.188a61d4067654988ae4.png",
+    "index.html": "/e-commerce/index.html",
+    "main.590b8c4f.css.map": "/e-commerce/static/css/main.590b8c4f.css.map",
+    "main.68bd8848.js.map": "/e-commerce/static/js/main.68bd8848.js.map",
+    "787.994511a4.chunk.js.map": "/e-commerce/static/js/787.994511a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.590b8c4f.css",
+    "static/js/main.68bd8848.js"
+  ]
+}
